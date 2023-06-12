@@ -60,7 +60,9 @@ var questionElement = document.getElementById("question");
 var optionsElement = document.getElementById("options");
 var nextButton = document.getElementById("next-btn");
 
-// Viser spørsmålet og svaralternativene
+/*  Function is responsible for displaying the current question 
+    and its corresponding options in the user interface */ 
+
 function showQuestion() {
     var question = questions[currentQuestion];
     questionElement.textContent = question.question;
@@ -71,7 +73,10 @@ function showQuestion() {
     }
 }
 
-// Sjekker svaret og inkrementerer scoreresultatet. 
+/*  Function with multiple elements:
+    Highlight selection and remove selection. 
+    It checks the answer and increments the score result.*/ 
+
 function checkAnswer(selectedOption) {
     var question = questions[currentQuestion];
     if (selectedOption === question.answer) {
@@ -79,33 +84,29 @@ function checkAnswer(selectedOption) {
     }
     optionsElement.classList.add("disabled");
 
-    // Remove "selected" class from all options
     var options = optionsElement.children;
     for (var i = 0; i < options.length; i++) {
         options[i].classList.remove("selected");
     }
 
-    // Highlight the selected option
     optionsElement.children[selectedOption].classList.add("selected");
-
     nextButton.disabled = false;
 }
 
+/* Function with multiple elements:  
+    Checks it the quiz is over or provides next question
+    Resetting color on the options when next question is up*/
 
-
-// Går videre til neste spørsmål
 function nextQuestion() {
     optionsElement.classList.remove("disabled");
     nextButton.disabled = true;
     currentQuestion++;
 
-    // Reset the color of options
     var options = optionsElement.children;
     for (var i = 0; i < options.length; i++) {
         options[i].classList.remove("selected");
     }
 
-    // Check if the quiz is completed and show the result, or move to the next question
     if (currentQuestion === questions.length) {
         showResult();
     } else {
@@ -131,7 +132,7 @@ function showResult() {
 }
 
 
-// Starter quizen ved å vise det første spørsmålet
+
 showQuestion();
 
 

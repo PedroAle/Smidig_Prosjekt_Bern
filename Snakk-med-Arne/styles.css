@@ -45,7 +45,6 @@ body {
     padding: 10px;
 }
 
-
 #chatbox {
     display: flex;
     flex-direction: column;
@@ -136,30 +135,26 @@ body {
     src: url(/Dashboard/Kavoon-Regular.ttf);
 }
 
-/* width */
 ::-webkit-scrollbar {
     width: 15px;  
 }
-  
-  /* Track */
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1; 
     border-radius: 50px;
 }
    
-  /* Handle */
 ::-webkit-scrollbar-thumb {
     background: rgba(92, 92, 92, 0.7); 
     border-radius: 50px;
 }
   
-  /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #383333; 
     border-radius: 50px;
 }
 
-#guide {
+#arne-guide-image {
     position: fixed;
     top: 25vh;
     right: 6vw;
@@ -168,7 +163,7 @@ body {
     border-radius: 50px; 
 }
 
-#guide-container {
+#arne-guide-div {
     position: fixed;
     top: 20px;
     right: 20px;

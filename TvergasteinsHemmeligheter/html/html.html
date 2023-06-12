@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/TvergasteinsHemmeligheter/css/escape_room.css">
+    <link rel="stylesheet" type="text/css" href="/Menu-Bar/menu_bar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kavoon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="center-logo">
+                <span>Tvergasteins Hemmeligheter</span>
+            </div>
+            <ul class="links left-links">
+                <li><a href="dashboard"><i class="fas fa-chart-bar"></i></a></li>
+                <li><a href="/Dashboard/dashboard.html"><i class="fas fa-home"></i></a></li>
+            </ul>
+            <ul class="links right-links">
+                <li><a href="profile"><i class="fas fa-user"></i></a></li>
+                <li><a href="friends"><i class="fas fa-users"></i></a></li>
+                <li><a href="notification"><i class="fas fa-bell"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="guide-container">
+        <img id="guide" src="/Dashboard/images/ArneNæss_avatar.png" alt="Virtual Guide">
+        <div id="bubble">Velkommen inn i hytta mi! Finn de forsvunnede gjenstandene.</div>
+        <div id="bubble2">Tips: Klikk på gjenstander du tror jeg ville samlet på!</div>
+    </div>    
+    <div id="room">
+        <div id="key" class="clickable"></div>
+        <div id="bone" class="clickable"></div>
+        <div id="ink" class="clickable"></div>
+        <div id="book" class="clickable"></div>
+        <div id="gear" class="clickable"></div>
+    
+    </div>
+    <div id="inventory">
+        <div id="inventory-heading-container">
+            <h2>INVENTAR:</h2>
+        </div>
+        <div id="inventory-items">
+            <div id="slot1" class="slot"></div>
+            <div id="slot2" class="slot"></div>
+            <div id="slot3" class="slot"></div>
+            <div id="slot4" class="slot"></div>
+            <div id="slot5" class="slot"></div>
+        </div>
+        <button id="next-room">GÅ TIL NESTE ROM</button>
+    </div>
+    <script src="/TvergasteinsHemmeligheter/javaScript/escape_room.js"></script>
+</body>
+</html>

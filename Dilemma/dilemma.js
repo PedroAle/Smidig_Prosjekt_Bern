@@ -1,3 +1,5 @@
+// Working buttons when going to "previous" or "next" page
+
 function goToPreviousPage() {
     history.back();
 }
@@ -20,17 +22,17 @@ function goToNextPage() {
             nextPage = "dilemma5.html";
             break;
         case "dilemma5.html":
-            // Optional: Handle what happens when reaching the last page
-            // For example, you can redirect to the first page
             nextPage = "dilemma.html";
             break;
         default:
-            nextPage = "dilemma.html"; // Default to the first page if the current page is unknown
+            nextPage = "dilemma.html"; 
             break;
     }
 
     location.href = nextPage;
 }
+
+// Voice function when users want to listen to a dilemma
 
 var audio = null;
 
@@ -55,7 +57,6 @@ function playAudio() {
       audioFilePath = "audiofiles/Naturreservat_Du_er_.mp3";
       break;
     default:
-      // Default audio file path if the current page is unknown
       audioFilePath = "Dilemma/audiofiles/default_audio_file.mp3";
       break;
   }
@@ -73,20 +74,7 @@ function playAudio() {
   }
 }
 
-function showBubble() {
-    var bubble = document.querySelector(".bubble");
-    bubble.style.display = "block";
-}
-
-function hideBubble() {
-    var bubble = document.querySelector(".bubble");
-    bubble.style.display = "none";
-}
-
-var avatar = document.querySelector(".arne-nss_avatar-2");
-avatar.addEventListener("mouseover", showBubble);
-avatar.addEventListener("mouseout", hideBubble);
-
+// Dropdown menu that users can choose what dilemma they want to click on
  
 document.addEventListener("DOMContentLoaded", function() {
   var categorySelect = document.getElementById("categorySelect");

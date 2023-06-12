@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Statement Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kavoon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/Menu-Bar/menu_bar.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="center-logo">
+            <span>Dashboard</span>
+        </div>
+        <ul class="links left-links">
+            <li><a href="dashboard"><i class="fas fa-chart-bar"></i></a></li>
+            <li><a href="/Dashboard/dashboard.html"><i class="fas fa-home"></i></a></li>
+        </ul>
+        <ul class="links right-links">
+            <li><a href="profile"><i class="fas fa-user"></i></a></li>
+            <li><a href="friends"><i class="fas fa-users"></i></a></li>
+            <li><a href="notification"><i class="fas fa-bell"></i></a></li>
+        </ul>
+    </nav>
+</header>
+    <div id="intro">
+        <p>Hvilken påstand er sann/løgn?<br>Diskuter!</p>
+        <div id="categories">
+          <label for="category-select">Velg en kategori:</label>
+          <select id="category-select"></select>
+        </div>
+        <button id="check-button">Sjekk Svar</button>
+    </div>
+    <div class="container">
+      <div id="statements"></div>
+    </div>
+
+    <div id="result">
+  </div> 
+  <img id="guide" src="/Dashboard/images/ArneNæss_avatar.png" alt="Virtual Guide">
+  <script src="script.js"></script>
+</body>
+</html>

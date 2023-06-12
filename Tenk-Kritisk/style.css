@@ -1,0 +1,159 @@
+  body {
+    display: grid;
+    background-image: url(/Dashboard/images/forrest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: "Kavoon", cursive;
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  @font-face {
+    font-family: "Kavoon";
+    src: url("Kavoon-Regular.ttf");
+  }
+  
+  
+  .statement {
+    top: 7.5vh;
+    cursor: pointer;
+    position: relative;
+    padding: 2.5vh;
+    font-size: 2.1vh;
+    font-family: "Kavoon";
+    letter-spacing: 1px;
+    color: white;
+    background-color: #12ADCF;
+    opacity: 1;
+    border-radius: 100px;
+    width: 45vw;
+    height: 12vh;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+  
+  
+  .statement.selected {
+    background-color: #ff6347;
+  }
+  
+  .statement.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .statement:hover {
+    transform: scale(1.05);
+    background-color: #ff6347;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  label {
+    position: absolute;
+    top: 20vh;
+    left: 10vw; 
+    transform: translateX(-50%); 
+    font-family: "Kavoon";
+    font-size: 3.1vh;
+    color: #ffffff;
+  }
+  
+  #category-select {
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    transform: translateX(-50%);
+    font-family: "Kavoon";
+    font-size: 3vh;
+    padding: 1vh;
+    border-radius: 20px;
+    background-color: #12ADCF;
+    color: #fff;
+    height: 7vh;
+  }
+  
+  
+  #check-button {
+    position: absolute;
+    bottom: 7vh;
+    left: 10vw;
+    transform: translateX(-50%);
+    font-family: "Kavoon", cursive;
+    font-size: 3vh;
+    padding: 1vh;
+    background-color: #60c057;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 10vh;
+    width: 15vw;
+  }
+  
+  #check-button:hover {
+    font-size: 3.5vh;
+  }
+
+  
+  #intro {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 70vh;
+    width: 20vw;
+    text-align: center;
+    padding: 3vh;
+    border-radius: 50px;
+    position: absolute;
+    font-family: "Kavoon", cursive;
+    font-size: 2.5vh;
+    color: #ffffff;
+    left: 2vw;
+    top: 15vh;
+  }
+  
+  @font-face {
+    font-family: "Kavoon";
+    src: url("Kavoon-Regular.ttf");
+  }
+  
+
+#guide {
+    position: fixed;
+    top: 64vh;
+    right: 6vw;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50px; 
+}
+
+#result {
+    position: fixed;
+    top: 53vh;
+    right: 5vw;
+    width: 17vw;  
+    height: 15vh; 
+    background-color: white;
+    transform: translateY(-50%);
+    padding: 2vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 2.5vh;  
+    font-family: kavoon;
+    text-align: center;
+    visibility: hidden;
+   
+}

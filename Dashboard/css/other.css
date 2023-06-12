@@ -1,0 +1,72 @@
+body {
+    display: grid;
+    background-image: url(/Dashboard/images/forrest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.activities h2 {
+    font-size: 4vh;
+    margin-bottom: 5vh;
+    margin-top: 0px;
+}
+
+#title {
+    position: relative;
+    text-align: center;
+    font-size: 5vh;
+    font-family: kavoon;
+    letter-spacing: 1px;
+    margin: 0;
+    color: white;
+}
+
+/* .Arne-guide {
+    position: absolute;
+    height: 39vh;
+    width: 20vw;
+    right: 15%;
+    top: 13%;
+    background-image: url(images/ArneNæss_avatar.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 80px;
+} */
+
+
+#arne-button {
+    position: relative;
+    font-family: kavoon;
+    font-size: 4vh;
+    color: white;
+    background-color: rgba(255, 115, 0, 1);
+    border-radius: 100vh;
+    border: none;
+    width: 27vw;
+    height: 15vh;
+    left: 62%;
+    top: 46vh;
+    cursor: pointer;
+}
+
+#arne-button:hover {
+    position: relative;
+    font-family: kavoon;
+    font-size: 5vh;
+    color: white;
+    background-color: #ff6347;
+    border-radius: 100vh;
+    border: none;
+    width: 27vw;
+    height: 15vh;
+    left: 62%;
+    top: 46vh;
+}
+
+
+@font-face {
+    font-family: kavoon;
+    src: url(/Dashboard/Kavoon-Regular.ttf);
+}
+

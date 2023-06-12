@@ -1,0 +1,369 @@
+@font-face {
+    font-family: "Kavoon";
+    src: url(/Dashboard/Kavoon-Regular.ttf);
+}
+
+body {
+    display: grid;
+    background-image: url(/Dashboard/images/forrest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.frame-6 {
+    position: absolute;
+    width: 25vw;
+    height: 45vh;
+    right: 8vw;
+    top: 40vh;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 999;
+    padding: 20px;
+    text-align: center;
+}
+
+.frame-6 .span1 {
+    font-size: 18px;
+    text-align: center;
+}
+    
+.arne-s-dilemmaer-2 .frame{
+    align-items: flex-start;
+    background-color: var(--black-2);
+    border-radius: 40px ;
+    display: flex;
+    overflow: hidden;
+    height: 500px;   
+    }
+    
+.the-ring-of-gyges-du {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 1px;
+    min-height: 502px;
+    text-align: center;
+    width: 351px;
+    }        
+    
+.span1 {
+    color: var(--white);
+    font-family:var(--font-family-kavoon);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    }
+    
+.valign-text-middle{
+     display: flex;
+     flex-direction: column;
+     justify-content: center; 
+     text-decoration: none;
+     font-size: 3vh;  
+    }
+    
+.diskuter-dilemmaet{
+    color: var(--white);
+    font-family:var(--font-family-kavoon);
+    font-size: var (--font-size-xl);
+    font-weight: 400;
+    height: 100px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 813px;
+   }
+ .diskuter-dilemmaet{
+    position: absolute;
+    width: 810px;
+    height: 100px;
+    left: 6.5vw;
+    top: 760px;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px; 
+ }
+
+
+.arne-s-dilemmaer-2 frame {
+    align-items: flex-start;
+    background-color: var(--black-2);
+    border-radius:20px;
+    display: flex;
+    overflow: hidden; 
+}
+ 
+.frame-4 {
+    margin-left: 6px;
+    width: 810px;   
+}
+
+.custom-icon {
+    position: absolute;
+    top: 40px; 
+    left: 380px;
+  }
+  
+
+.icon {
+    height: 41px;
+    width: 58px;
+   }
+
+
+    .overlap-group {
+    cursor: pointer;
+    height: 112px;
+    margin-top: -1px;
+    position: relative;
+    width: 272px;
+    top: 20px;
+    left: 20px;
+}
+  
+
+.valign-text-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+link {
+    cursor: pointer;
+    height: 112px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 272px;
+}
+
+
+
+.expand_right_double-2 {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    transform: translate(0, 0); 
+  }
+    
+
+.overlap-group1 {
+    cursor: pointer;
+    height: 112px;
+    margin-top: -75px;
+    position: relative;
+    width: 272px;
+    margin-left: 640px;
+}
+
+.expand_right_double-1 { 
+    height: 70px ;
+    left: 100px;
+    position: absolute;
+    top: -15px;
+    width: 67 px;
+}
+.frame-4{
+    position: absolute;
+    width: 810px;
+    height: 112px;
+    left: 6vw;
+    top: 161px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;  
+}
+
+/* BILDER */
+.framepicture {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: -1; 
+    padding: 230px;
+    position: absolute;
+    top: 30.8vh; 
+    left: 6.5vw; 
+    width: 42vw; 
+    height: auto; 
+    box-sizing: border-box; 
+}
+
+.ringof-gyges-ji-jeez-1 {
+    position: absolute;
+    top: 300px; 
+    left: 150px; 
+    width: 40%; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+.lifeboat {
+    position: absolute;
+    top: 250px; 
+    left: 230px; 
+    width: 40%; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+.wildanimal {
+    position: absolute;
+    top: 300px; 
+    left: 230px; 
+    width: 30%; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+.naturedistruction {
+    position: absolute;
+    top: 300px; 
+    left: 150px; 
+    width: 38%; 
+    height: auto; 
+    object-fit: contain; 
+}
+  
+.trolleyproblem {
+    position: absolute;
+    top: 300px; 
+    left: 45px; 
+    width: 50%; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+
+.frame-5 {
+position: absolute;
+width: 800px;
+height: 535px;
+left: 6px;
+top: 307px;
+background: #9D9595;
+border-radius: 20px;    
+}
+.arne-nss_avatar-2{
+position: absolute;
+width: 8vw;
+height: 16vh;
+right: 18vw;
+top: 15vh;
+
+background: url(/Dilemma/images/arnen-ss-avatar-2@2x.png);
+border-radius: 50px;   
+}
+
+.speakerpic {
+    cursor: pointer ;
+    position: absolute;
+    width: 2vw;
+    height: 4vh;
+    right: 21vw;
+    top: 33vh;
+    object-fit: contain;
+    
+    background: url(/Dilemma/images/speaker2.png);
+    border-radius: 50px;   
+}
+
+#categories {
+    position: relative;
+    z-index: 999;
+  }
+
+label {
+    position: absolute;
+    top: 20vh; 
+    left: 10vw; 
+    transform: translateX(-50%); 
+    font-family: "Kavoon", cursive;
+    font-size: 3.1vh;
+    color: #ffffff;
+}
+
+.dropdown {
+    position: absolute;
+    top: 13.3vh;
+    left: 27.6vw;
+    transform: translateX(-50%);
+    display: inline-block;
+    height: 7vh;
+}
+
+.dropbtn {
+    font-family: "Kavoon", cursive;
+    font-size: 2vh;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: transparent;
+}
+
+.dropbtn:hover {
+    background-color: #12adcf;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    bottom: auto;
+    color: #fff;
+    border-radius: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.dropdown-content select {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content select option {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #12adcf;
+    color: #fff;
+}

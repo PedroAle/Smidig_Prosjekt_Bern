@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Kavoon:400|Roboto:400");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Kavoon;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative; 
+}
+
+.center-logo {
+    color: #fff;
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.center-logo span {
+    font-size: 40px; 
+}
+
+
+.links {
+    display: flex;
+    list-style-type: none;
+}
+
+.left-links {
+    justify-content: flex-start; 
+}
+
+.right-links {
+    justify-content: flex-end; 
+}
+
+.links li {
+    margin: 0 10px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px; 
+}
+
+.fas {
+    margin-right: 5px;
+}
+
+
+.links a:hover {
+    color: #ff6347;
+}
+
+@font-face {
+    font-family: kavoon;
+    src: url(Kavoon-Regular.ttf);
+}
+
+
+:root{ 
+    --black-2: rgba(0, 0, 0, 0.502);
+    --black: rgba(0, 0, 0, 1);
+    --cerulean-2: rgba(18, 173, 207, 0.698);
+    --cerulean: rgba(18, 173, 207, 1);
+    --conifer: rgba(171, 212, 94, 0.698);
+    --celeste:  rgba(204, 204, 204, 1);
+    --soapstone:  rgba(255, 250, 250, 1);
+    --white:rgba(255, 255, 255, 0.502) ;
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-m: 20px;
+
+    --font-size-l: 22px;
+    --font-size-xl: 24px ;
+    --font-size-xxl: 30px;
+    --font-size-xxxl: 32px;
+    --font-size-xxxxl: 40px;
+    --font-size-xxxxxl: 48px;
+
+    --font-family-kavoon: "Kavoon";
+    --t-ramily-roboto:  "Roboto";
+}
+
+.roboto-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.kavoon-normal-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-kavoon);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kavoon-normal-soapstone-24px{
+    color: var(--soapstone);
+    font-family: var(--font-family-kavoony);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+   
+}
+     
+.kavoon-normal-white-40px {
+    color: var(--white);
+    font-family: var(--font-family-kavoon);
+    font-size: var(--font-size-xxxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.kavoon-normal-white-32px {
+    color: var(--white);
+    font-family: var(--font-family-kavoon);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.kavoon-normal-white-30px {
+    color: var(--white);
+    font-family: var(--font-family-kavoon);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kavoon-normal-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-kavoon);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.frame-4 .overlap-group .link.valign-text-middle {
+    position: absolute;
+    left: 65px; 
+    top: 32%;
+    transform: translateY(-50%);
+}
+
+.frame-4 .overlap-group1 .link.valign-text-middle {
+    position: absolute;
+    right: 165px; 
+    top: 17%;
+    transform: translateY(-50%);
+}
+
+

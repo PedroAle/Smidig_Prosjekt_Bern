@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="activties.css">
-    <link rel="stylesheet" href="socials.css">
-    <link rel="stylesheet" href="minFremgang.css"> 
-    <link rel="stylesheet" href="other.css">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="/Dashboard/css/activties.css">
+    <link rel="stylesheet" href="/Dashboard/css/socials.css">
+    <link rel="stylesheet" href="/Dashboard/css/minFremgang.css"> 
+    <link rel="stylesheet" href="/Dashboard/css/other.css">
+    <link rel="stylesheet" href="/Dashboard/css/arne_guide.css"> 
     <link rel="stylesheet" href="/Menu-Bar/menu_bar.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kavoon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="arne_guide.css"> 
+    
 
 </head>
 <body>
@@ -32,13 +34,14 @@
             </ul>
         </nav>
     </header>
+
     <div class="activities">
         <h2 class="activity-title">SPILL OG AKTIVITETER</h2>
         <div class="button-container">
             <button id="a1" onclick="location.href='/TvergasteinsHemmeligheter/front_page/front_page.html'">TVERGASTEINS HEMMELIGHETER</button>
-            <button id="a2" onclick="location.href='/Arnes-Quiz/quiz-start.html'">ARNE'S QUIZ</button>
+            <button id="a2" onclick="location.href='/Arnes-Quiz/html/quiz-start.html'">ARNE'S QUIZ</button>
             <button id="a3" onclick="location.href='/Dilemma/dilemma.html'">ARNE'S <br> DILEMMAER</button>
-            <button id="a4" onclick="location.href='/Tenk-Kritisk/ctg6.html'">TENK KRITISK <br> MED ARNE</button>
+            <button id="a4" onclick="location.href='/Tenk-Kritisk/tenk_kritisk.html'">TENK KRITISK <br> MED ARNE</button>
         </div>
     </div>
     
@@ -50,40 +53,23 @@
         <button id="s4" onclick="link">LEDERTAVLER</button>
     </div>
 
-    <!-- <div class="Arne-guide"></div> -->
-    <div id="profil">
-        <img id="profilBilde" src="/Dashboard/images/ArneNæss_avatar.png">
+    <div id="arne-guide-div">
+        <img id="arne-guide-image" src="/Dashboard/images/ArneNæss_avatar.png">
     </div>
 
-    <!-- Chat bubble for Guide arne -->
-    <div id="bubble">
-        hallo dette er snakke boblen for arne
-    </div>
     <button id="arne-button"  onclick="location.href='/Snakk-med-Arne/index.html'">SNAKK MED AI-ARNE!</button>
     
     <div class="minFremgang">
         <h2>MIN FREMGANG</h2>
+
         <div class="level-bar">
-            <div class="progress-bar">
-            </div>
+            <div class="progress-bar"></div>
         </div>
+
         <p class="skryt_prompt">Du fikk 15 poeng i Tvergasteins hemmeligheter. Godt jobbet!</p>
         <p class="skryt_prompt">Du fikk 10 poeng i Arne's Quiz. Der er du god!</p>
         <p class="skryt_prompt">Du gjennomførte Arne's Dilemmaer. Meget bra jobbet!</p>
+
     </div>
-
-    <!-- <script src="arne_guide.js"> -->
-    <script src="hover.js">
-    </script>
-
-    <!-- <audio autoplay src="/Dashboard/birds-singing.mp3"></audio> -->
-    
 </body>
 </html>
-
-
-<!-- onmouseover="displayBubble(this)" onmouseleave="hideBubble()"
-onmouseover="displayBubble(this)" onmouseleave="hideBubble()"
-onmouseover="displayBubble(this)" onmouseleave="hideBubble()"
-onmouseover="displayBubble(this)" onmouseleave="hideBubble()"
-onmouseover="displayBubble(this)" onmouseleave="hideBubble()" -->

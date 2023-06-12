@@ -1,0 +1,64 @@
+.socials {
+    position: absolute;
+    height: 30vh;
+    width: 50vw;
+    right: 0%;
+    bottom: 0%;
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    gap: 4vh;
+}
+
+#s1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+#s2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+#s3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+#s4 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.socials button {
+    position: relative;
+    font-family: kavoon;
+    font-size: 3vh;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 40px;
+    width: 17vw;
+    height: 10vh;
+    cursor: pointer;
+    border: none;
+}
+
+.socials button:hover {
+    position: relative;
+    font-family: kavoon;
+    font-size: 4vh;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #ff6347;
+    border-radius: 40px;
+    width: 17vw;
+    height: 10vh;
+    cursor: pointer;
+    border: none;
+}
+
+@font-face {
+    font-family: kavoon;
+    src: url(/Dashboard/Kavoon-Regular.ttf);
+}

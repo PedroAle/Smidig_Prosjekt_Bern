@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Kavoon";
+    src: url(/Dashboard/Kavoon-Regular.ttf);
+}
+
+#arne-guide-image {
+    position: absolute;
+    height: 40vh;
+    width: 20vw;
+    right: 15vw;
+    top: 12vh;
+    background-image: url(/Dashboard/images/ArneNæss_avatar.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 80px;
+}
+
+
+/* CSS for guide bubble container */
+#bubble {
+    position: absolute;
+    right: 30vw;
+    top: 20vh;
+    transform: translateY(-50%);
+    padding: 1vh;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    border-radius: 2vh;
+    width: 25vw;
+    font-size: 3vh;
+    font-family: kavoon;
+    visibility: hidden;
+    text-align: center;
+}

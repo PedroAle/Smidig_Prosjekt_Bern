@@ -1,0 +1,91 @@
+body {
+    display: grid;
+    background-image: url(/Dashboard/images/forrest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+h1 {
+    padding: 1vh;
+    color: white;
+    font-size: 36px;
+}
+
+#start-container {
+    margin-top: 20vh;
+    margin-left: 25%;
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+    border-radius: 50vh;
+    width: 50vw;
+    height: 25vh;
+}
+
+p {
+    color: white;
+    font-size: 2vh;
+}
+
+.start-btn {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #12ADCF;
+    color: white;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.start-btn:hover {
+    background-color: #ff6347;
+    font-size: 20px;
+}
+ 
+.Arne-guide {
+    position: fixed;
+    top: 70vh; 
+    left: 85vw; 
+    border-radius: 20px;
+}
+
+#guide {
+    position: fixed;
+    top: 64vh;
+    right: 6vw;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50px; 
+}
+
+#guide-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 200px;  
+    height: 200px; 
+}
+
+#bubble {
+    position: absolute;
+    right: 150%;
+    top: 65vh;
+    transform: translateY(-50%);
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;  
+    font-size: 25px;  
+    font-family: kavoon;
+    text-align: center;
+}
+
+
+
+
+
+

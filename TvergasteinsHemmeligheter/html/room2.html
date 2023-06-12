@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="/TvergasteinsHemmeligheter/css/room2.css">
+    <link rel="stylesheet" type="text/css" href="/Menu-Bar/menu_bar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kavoon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="center-logo">
+                <span>Tvergasteins Hemmeligheter</span>
+            </div>
+            <ul class="links left-links">
+                <li><a href="dashboard"><i class="fas fa-chart-bar"></i></a></li>
+                <li><a href="/Dashboard/dashboard.html"><i class="fas fa-home"></i></a></li>
+            </ul>
+            <ul class="links right-links">
+                <li><a href="profile"><i class="fas fa-user"></i></a></li>
+                <li><a href="friends"><i class="fas fa-users"></i></a></li>
+                <li><a href="notification"><i class="fas fa-bell"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+<div id="safe">
+    <img src="/TvergasteinsHemmeligheter/images/closedsafe.png" alt="Lukket safe">
+</div>
+
+    <div id="popup" class="popup-container">
+      <div class="popup-content">
+          <h3>HVA ER KODEN TIL SAFEN?</h3>
+          <p>Kanskje noen av de andre gjenstandene kan hjelpe deg</p>
+          <button id="kode1" class="close-button">6583</button>
+          <button id="kode2" class="close-button">6853</button>
+          <button a href="/Tvergasteins hemmeligheter/front_page/front_page.html" id="kode3" class="close-button">6538</button>
+      </div>
+    </div>
+
+<div id="guide-container">
+    <img id="guide" src="/Dashboard/images/ArneNæss_avatar.png" alt="Virtual Guide">
+    <div id="bubble">BRAVO! *burp* Du fant alle gjenstandene i forrige rom!</div>
+    <div id="bubble2">Tips: Kanskje du kan bruke noen av gjenstandene du har funnet!</div>
+</div>   
+
+<div id="inventory">
+    <div id="inventory-heading-container">
+        <h2>INVENTAR:</h2>
+    </div>
+    <div id="inventory-items">
+        <div id="slot1" class="slot" draggable="true">
+            <img src="/TvergasteinsHemmeligheter/images/key.png" alt="key" id="key">></div>
+        <div id="slot2" class="slot"></div>
+        <div id="slot3" class="slot"></div>
+        <div id="slot4" class="slot"></div>
+        <div id="slot5" class="slot"></div>
+    </div>
+    <button id="next-room">GÅ TIL NESTE ROM</button>
+</div>
+        
+    <script src="/TvergasteinsHemmeligheter/javaScript/room2.js"></script>
+
+</body>
+</html>

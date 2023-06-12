@@ -1,3 +1,4 @@
+// Function for sending a user's chat message to the server and appends the server's reply to the chat log and prints it in the chat-window.
 function submitChat() {
     let input = $('#chat-input').val();
     $('#chat-input').val('');
@@ -17,16 +18,9 @@ function submitChat() {
     });
 }
 
-function scrollChatToBottom() {
-    var chatlogs = document.getElementById('chatlogs');
-    chatlogs.scrollTop = chatlogs.scrollHeight;
-}
-
-
+// Function for the chat-bubble which appears when you enter the page and stays for 10 seconds. 
 window.onload = function() {
     setTimeout(function() {
         document.getElementById('bubble').style.display = 'none';
     }, 10000);
 };
-
-/* <img src="/dashbord/images/ArneNæss_avatar.png" style="width: 50px; height: 50px;' */

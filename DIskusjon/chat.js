@@ -1,22 +1,22 @@
-// Henter DOM-elementer
+// Retrieves HTML-elements 
 var messageInput = document.getElementById("messageInput");
 var sendButton = document.getElementById("sendButton");
 var messagesList = document.getElementById("messages");
 
-// Spør brukeren om navnet
+// Gives user the name "Bruker 1"
 var name = "Bruker 1"
 
-// Venter på klikk på send-knappen
+// Listens for the button to be pressed and then sends the message
 sendButton.addEventListener("click", sendMessage);
 
-// Venter på Enter-tastetrykk i meldingsfeltet
+// Listens for "Enter" keystroke in the message field and then sends the message
 messageInput.addEventListener("keydown", function(event) {
     if (event.keyCode === 13) {
         sendMessage();
     }
 });
 
-// Sender melding og viser den i chat-vinduet
+// Sendes message and shows it in the chat-window
 function sendMessage() {
     var message = messageInput.value;
     if (message.trim() !== "") {
@@ -39,7 +39,7 @@ function sendMessage() {
     }
   }
   
-// Ruler ned til bunnen av chat-vinduet
+// Scrolls down in the chat-window
 function scrollToBottom() {
     messagesList.scrollTop = messagesList.scrollHeight;
 }

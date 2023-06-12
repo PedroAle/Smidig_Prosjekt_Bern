@@ -1,4 +1,4 @@
-/* Reset default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,57 +10,57 @@ body {
     font-weight: lighter;
 }
 
-/* Navbar styles */
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    position: relative; /* Added this to allow absolute positioning of elements */
+    padding: 1.5vh 3vh;
+    position: relative; 
 }
 
 .center-logo {
     color: #fff;
-    position: absolute; /* Absolute positioning to center regardless of other elements */
-    left: 50%; /* Moves the element's left edge to the center of the parent */
-    top: 50%; /* Moves the element's top edge to the middle of the parent */
-    transform: translate(-50%, -50%); /* Shifts the element back by 50% of its own width and height */
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
 }
 
 .center-logo span {
-    font-size: 40px; /* Increased size of the title */
+    font-size: 3.5vh; 
 }
 
-/* Links styles */
+
 .links {
     display: flex;
     list-style-type: none;
 }
 
 .left-links {
-    justify-content: flex-start; /* Aligns the left links to the left */
+    justify-content: flex-start; 
 }
 
 .right-links {
-    justify-content: flex-end; /* Aligns the right links to the right */
+    justify-content: flex-end; 
 }
 
 .links li {
-    margin: 0 10px;
+    margin: 0 1vh;
 }
 
 .links a {
     color: #fff;
     text-decoration: none;
-    font-size: 40px; /* Increased size of the icons */
+    font-size: 3.5vh; 
 }
 
-/* Font Awesome Icons */
+
 .fas {
-    margin-right: 5px;
+    margin-right: 0.5vh;
 }
 
-/* Hover effects */
+
 .links a:hover {
     color: #ff6347;
 }

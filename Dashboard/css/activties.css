@@ -1,0 +1,63 @@
+.activities {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    height: 50vh;
+    width: 47vw;
+    top: 13%;
+    left: 3%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-title {
+    text-align: center;
+    color: #fff;  
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vh;
+    width: 90%;
+    justify-items: center;
+}
+
+.activities button {
+    position: relative;
+    padding: 1vh;
+    font-size: 3vh;
+    font-family: kavoon;
+    color: white;
+    background-color: #12ADCF;
+    border: none;
+    opacity: 1;
+    border-radius: 90px;
+    width: 18vw;
+    height: 13vh;
+    cursor: pointer;
+}
+
+.activities button:hover {
+    position: relative;
+    padding: 1vh;
+    font-size: 4vh;
+    font-family: kavoon;
+    color: white;
+    background-color: #ff6347;
+    border: none;
+    opacity: 1;
+    border-radius: 90px;
+    width: 18vw;
+    height: 13vh;
+    cursor: pointer;
+    
+}
+
+@font-face {
+    font-family: kavoon;
+    src: url(/Dashboard/Kavoon-Regular.ttf);
+}

@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    background-image: url(door.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 20px;
+    background-color: #12ADCF;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.start-button:hover {
+    background-color: #ff6347;
+}

@@ -1,0 +1,199 @@
+body {
+  display: grid;
+  background-image: url(images/aurora2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: "Kavoon", cursive;
+}
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative; /* Added this to allow absolute positioning of elements */
+}
+
+.center-logo {
+  color: #fff;
+  position: absolute; /* Absolute positioning to center regardless of other elements */
+  left: 50%; /* Moves the element's left edge to the center of the parent */
+  top: 50%; /* Moves the element's top edge to the middle of the parent */
+  transform: translate(-50%, -50%); /* Shifts the element back by 50% of its own width and height */
+}
+
+.center-logo span {
+  font-size: 40px; /* Increased size of the title */
+}
+
+/* Links styles */
+.links {
+  display: flex;
+  list-style-type: none;
+}
+
+.left-links {
+  justify-content: flex-start; /* Aligns the left links to the left */
+}
+
+.right-links {
+  justify-content: flex-end; /* Aligns the right links to the right */
+}
+
+.links li {
+  margin: 0 10px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 40px; /* Increased size of the icons */
+}
+
+/* Font Awesome Icons */
+.fas {
+  margin-right: 5px;
+}
+
+/* Hover effects */
+.links a:hover {
+  color: #ff6347;
+}
+
+@font-face {
+  font-family: "Kavoon";
+  src: url("Kavoon-Regular.ttf");
+}
+
+
+.statement {
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 3vh;
+  font-size: 15px;
+  font-family: "Kavoon", cursive;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #12ADCF;
+  opacity: 0.9;
+  border-radius: 100px;
+  width: 40vw;
+  height: 8vh;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+  top: 3vh;
+}
+
+.statement.selected {
+  background-color: #e7e412;
+}
+
+.statement.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.statement:hover {
+  transform: scale(1.05);
+  background-color: #ff6347;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#inputContainer {
+  margin-bottom: 20px;
+}
+
+label {
+  position: absolute;
+  top: 32vh; /* Adjust the distance from the bottom as needed */
+  left: 18vw; /* Positions the button at the horizontal center */
+  transform: translateX(-50%); /* Centers the button horizontally */
+  font-family: "Kavoon", cursive;
+  font-size: 41px;
+  color: #ffffff;
+}
+
+#categorySelect {
+  position: absolute;
+  top: 41vh; /* Adjust the distance from the bottom as needed */
+  left: 18vw; /* Positions the button at the horizontal center */
+  transform: translateX(-50%); /* Centers the button horizontally */
+  font-family: "Kavoon", cursive;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #ff6347;
+  color: #fff;
+}
+
+#categorySelect:hover {
+  background-color: #12ADCF;
+}
+
+#checkButton {
+  position: absolute;
+  bottom: 20vh; /* Adjust the distance from the bottom as needed */
+  left: 50%; /* Positions the button at the horizontal center */
+  transform: translateX(-50%); /* Centers the button horizontally */
+  font-family: "Kavoon", cursive;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #ff6347;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#checkButton:hover {
+  background-color: #12ADCF;
+}
+
+#result {
+  font-family: "Kavoon", cursive;
+  font-size: 34px;
+  color: #ffffff;
+  margin-top: 190px;
+  text-decoration-line: underline;
+}
+
+#totalAttempts {
+  font-family: "Kavoon", cursive;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+#intro {
+  position: absolute;
+  font-family: "Kavoon", cursive;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration-line: underline;
+  left: 33%;
+  top: 15%;
+}
+
+@font-face {
+  font-family: "Kavoon";
+  src: url("Kavoon-Regular.ttf");
+}

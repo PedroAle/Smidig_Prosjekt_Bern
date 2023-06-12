@@ -1,0 +1,95 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Kavoon;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative; /* Added this to allow absolute positioning of elements */
+}
+
+.center-logo {
+    color: #fff;
+    position: absolute; /* Absolute positioning to center regardless of other elements */
+    left: 50%; /* Moves the element's left edge to the center of the parent */
+    top: 50%; /* Moves the element's top edge to the middle of the parent */
+    transform: translate(-50%, -50%); /* Shifts the element back by 50% of its own width and height */
+}
+
+.center-logo span {
+    font-size: 40px; /* Increased size of the title */
+}
+
+/* Links styles */
+.links {
+    display: flex;
+    list-style-type: none;
+}
+
+.left-links {
+    justify-content: flex-start; /* Aligns the left links to the left */
+}
+
+.right-links {
+    justify-content: flex-end; /* Aligns the right links to the right */
+}
+
+.links li {
+    margin: 0 10px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px; /* Increased size of the icons */
+}
+
+/* Font Awesome Icons */
+.fas {
+    margin-right: 5px;
+}
+
+/* Hover effects */
+.links a:hover {
+    color: #ff6347;
+}
+
+@font-face {
+    font-family: kavoon;
+    src: url(Kavoon-Regular.ttf);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;  
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 50px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(92, 92, 92, 0.7); 
+    border-radius: 50px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #383333; 
+    border-radius: 50px;
+}
+
+

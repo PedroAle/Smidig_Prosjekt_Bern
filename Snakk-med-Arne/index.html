@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Bot</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="/Menu-Bar/menu_bar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="center-logo">
+                <span>Dashboard</span>
+            </div>
+            <ul class="links left-links">
+                <li><a href="dashboard"><i class="fas fa-chart-bar"></i></a></li>
+                <li><a href="/Dashboard/dashboard.html"><i class="fas fa-home"></i></a></li>
+            </ul>
+            <ul class="links right-links">
+                <li><a href="profile"><i class="fas fa-user"></i></a></li>
+                <li><a href="friends"><i class="fas fa-users"></i></a></li>
+                <li><a href="notification"><i class="fas fa-bell"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="guide-container">
+        <img id="guide" src="/Dashboard/images/ArneNæss_avatar.png" alt="Virtual Guide" onmouseover="showtip()">
+        <div id="bubble">Velkommen til denne AI-boten som er inspirert av ingen ringere enn: MEG SELV! Ha en fin og lærerik samtale...</div>
+    </div>  
+    <div class="AI-Arne_tips">
+        <h2>Eksempel-spørsmål til Arne</h2>
+        <p>Hvem var du? Fortell om deg selv og livet ditt.</p>
+        <p>Kan du forklare de viktigste tankene dine på en måte som barn kan forstå?</p>
+        <p>Hvordan ville du brukt ideene dine for å løse problemer vi har i verden i dag?</p>
+        <p>Hvis du fikk sjansen til å endre noen av teoriene eller filosofiene dine basert på endringer i teknologi, samfunn, eller vitenskap som har skjedd siden din tid, hva ville du endret?</p>
+        <p>Hva synes du om hvordan arbeidet ditt har blitt tolket og brukt siden din tid? Er det noe du føler har blitt misforstått eller feilaktig fremstilt?</p>
+    </div>
+
+    <div id="chatbox">
+        <div id="chatlogs">
+            <!-- chat will appear here -->
+        </div>
+        <div id="chat-input-area">
+            <input id="chat-input" placeholder="Spør Arne om noe...">
+            <button type="text" id="chat-send" onclick="submitChat()">Send</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>

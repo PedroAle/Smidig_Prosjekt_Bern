@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Avatar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kavoon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/Dilemma/css/style2.css">
+
+</head>
+<body>
+<!-- Menubar -->
+<header>
+    <nav class="navbar">
+        <div class="center-logo">
+            <span>Min Avatar</span>
+        </div>
+        <ul class="links left-links">
+            <li><a href="dashboard"><i class="fas fa-chart-bar"></i></a></li>
+            <li><a href="/Dashboard/dashboard.html"><i class="fas fa-home"></i></a></li>
+        </ul>
+        <ul class="links right-links">
+            <li><a href="profile"><i class="fas fa-user"></i></a></li>
+            <li><a href="friends"><i class="fas fa-users"></i></a></li>
+            <li><a href="notification"><i class="fas fa-bell"></i></a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- SideBar drop down menus -->
+    <div id="attribute-div">
+        <button class="attributes" onclick="displayDropDown(0)">Kjønn<i class="fa-solid fa-caret-down dropdown"></i></button>
+        <button class="attributes">Hår<i class="fa-solid fa-caret-down dropdown"></i></button>
+        <button class="attributes">Øyne<i class="fa-solid fa-caret-down dropdown"></i></button>
+        <button class="attributes">Klær<i class="fa-solid fa-caret-down dropdown" ></i></button>
+    </div>
+
+    <div id="Select-Avatar-div">
+        <img id="Select-Avatar-img" src="/Min-Avatar/images/avatars.png" alt="Selections">
+    </div>
+
+<!-- Lag avatar button -->
+<button id="lag-avatar-btn">Lag avatar!</button>
+
+<!-- arne næss image bottom left -->
+<div id="arne-guide-div">
+    <img id="arne-guide-image" src="/Dashboard/images/ArneNæss_avatar.png">
+</div>
+<script src="/Min-Avatar/js/avatar.js"></script>
+<script src="/Min-Avatar/js/dropdown.js"></script>
+</body>
+</html>

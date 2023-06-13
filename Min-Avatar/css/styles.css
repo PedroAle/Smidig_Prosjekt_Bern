@@ -1,0 +1,124 @@
+
+body {
+    display: grid;
+    background-image: url(/Dashboard/images/forrest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: "Kavoon", cursive;
+    }
+
+@font-face {
+    font-family: "Kavoon";
+    src: url("Kavoon-Regular.ttf");
+    }
+
+#Select-Avatar-img{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#arne-guide-image{
+    -webkit-user-drag: none;
+    position: absolute  ;
+    bottom: 2vh;
+    left: 2vw;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50px;
+}
+
+
+
+#Select-Avatar-img {
+    height: 60vh;
+    padding: 2vh;
+    /* width: 80vw; */
+}
+
+#Select-Avatar-div {    
+    top: 20vh;
+    width: 46vw;
+    left: 28vw;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#attribute-div {
+    position: absolute;
+    border-radius: 10px;
+    margin: 0vh;
+    padding: 0vh;
+    left: 2vw;
+    top: 20vh;
+    width: 20vw;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column ;
+
+}
+
+.attributes {
+    height: 13vh;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: Kavoon;
+    color: white;
+    font-size: 3vh;
+}
+
+.attributes:hover{
+    background-color: rgba(27, 27, 27, 0.6);
+}
+
+.dropdown {
+    position: absolute;
+    right: 5vw;
+}
+
+#lag-avatar-btn{
+    position: absolute;
+    bottom: 10vh;
+    left: 48vw;
+    font-size: 4vh;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    height: 7vh;
+    font-family: Kavoon;
+}
+
+/* Styling for the guide */
+#bubble {
+    position: absolute;
+    left: 8vw;
+    bottom: 7vh;
+    transform: translateY(-50%);
+    padding: 1vh;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    border-radius: 2vh;
+    width: 25vw;
+    font-size: 3vh;
+    font-family: kavoon;
+    visibility: visible;
+    text-align: center;
+}
+
+.dropdown-btn{
+    position: relative;
+
+}

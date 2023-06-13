@@ -172,7 +172,7 @@ const categories = [
   function toggleStatement() {
     this.classList.toggle('selected');
   }
-  
+
   
   displayStatements();
 

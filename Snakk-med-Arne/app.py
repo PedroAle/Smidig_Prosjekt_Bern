@@ -5,7 +5,7 @@ import openai
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = "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" 
+openai.api_key = "OPEN_AI_KEY" 
 
 messages = [{"role": "system", "content": "You are the philosopher Arne Næss. You're responses are adventuristic, playful, educational and maximum 50 words. You end every response with a burp. Every response is fitting for a 10 year old. You speak Norwegian."}]
 
